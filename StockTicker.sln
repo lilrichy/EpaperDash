@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StockTicker", "StockTicker\StockTicker.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266WiFi-1.0", "StockTicker\Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems", "{3816C4FC-F3CD-4117-ABC0-D147AF7D1880}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266HTTPClient-1.2", "StockTicker\Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems", "{8324C8C4-F5B8-41A5-8FFB-2528BE29D553}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoJson-6.14.1", "StockTicker\Libraries\ArduinoJson\6.14.1\ArduinoJson\ArduinoJson-6.14.1.vcxitems", "{A69ED7EA-8358-4026-8CDA-8D0DD543FF6B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		StockTicker\Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{3816c4fc-f3cd-4117-abc0-d147af7d1880}*SharedItemsImports = 9
+		StockTicker\Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{8324c8c4-f5b8-41a5-8ffb-2528be29d553}*SharedItemsImports = 9
+		StockTicker\Libraries\ArduinoJson\6.14.1\ArduinoJson\ArduinoJson-6.14.1.vcxitems*{a69ed7ea-8358-4026-8cda-8d0dd543ff6b}*SharedItemsImports = 9
+		StockTicker\Libraries\ArduinoJson\6.14.1\ArduinoJson\ArduinoJson-6.14.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		StockTicker\Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		StockTicker\Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E173369-A953-4DC3-8865-B2C8B7312E2D}
+	EndGlobalSection
+EndGlobal
